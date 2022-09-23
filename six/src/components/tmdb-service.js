@@ -1,6 +1,8 @@
 export default class TMDBService {
-  static async /person/{person_id}/movie_credits {
-    
+  static async getActors(name) {
+    try {
+      const response = await fetch('')
+    }
   }
-  
+
 }
