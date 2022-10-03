@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Actors from './actors';
 
 function App() {

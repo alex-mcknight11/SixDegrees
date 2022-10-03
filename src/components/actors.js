@@ -18,8 +18,5 @@ useEffect(() => {
       setIsLoaded(true)
     });
   }, [])
-}
-
-export default TopStories;
 
 export default Actors
