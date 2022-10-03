@@ -1,0 +1,5 @@
+
+
+function getTwoRandomActorIds() {
+  Math.random()
+}
