@@ -10,4 +10,8 @@ function getTwoRandomActorIds() {
     return [actors[i], actors[j]];
 }
 
-//fix so same actors are not in random integer
+function getActorsMovies( {
+
+
+  //fix so same actors are not in random integer
+})
