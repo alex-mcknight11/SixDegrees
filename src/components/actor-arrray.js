@@ -366,7 +366,7 @@ export default [
 	62410, // Sammo Hung
 	64439, // Fan Bingbing
 	62414, // Yuen Biao
-	1336, // Jet Lit
+	1336, // Jet Li
 	1341, // Donnie Yen
 	7450, // Toshiro Mifune
 	11357, // Bruce Campbell
@@ -374,4 +374,5 @@ export default [
 	57607, // Stephen Chow
 	80579, // Robert Zdar
 	44728, // Cameron Mitchell
+  51576, // Chuck Norris
 ];
