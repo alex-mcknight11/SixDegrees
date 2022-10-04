@@ -1,5 +1,5 @@
 import React from 'react';
-import Actors from './index';
+import Actors from '../index';
 
 function App() {
   return (

@@ -1,17 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './components/App';
-import reportWebVitals from './reportWebVitals';
+import actors from "actor-array";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+function getTwoRandomActorIds() {
+  const i = getRandomInt(actors.length);
+  const j = getRandomInt(actors.length);
+    return [actors[i], actors[j]];
+}
+
+function getActorsMovies() {
+  const 
+ 
+
+
+  //fix so same actors are not in random integer
+}
