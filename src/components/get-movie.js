@@ -1,3 +1,5 @@
+import actors from 'actor-array';
+
 export default class TMDBService {
   static async getMoviesFromActor(movies) {
     try {

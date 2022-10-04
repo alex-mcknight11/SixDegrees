@@ -8,7 +8,10 @@ function getTwoRandomActorIds() {
   const i = getRandomInt(actors.length);
   const j = getRandomInt(actors.length);
     return [actors[i], actors[j]];
-}
+    while (actors[i] == actors[j]){
+      actors[i] = getRandomInt();
+    }
+
 
 function getActorsMovies() {
   const 
