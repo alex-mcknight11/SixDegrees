@@ -374,4 +374,5 @@
   "Stephen Chow" : 57607
   "Robert Zdar" : 80579
   "Cameron Mitchell" : 44728
+  "Chuck Norris" : 51576
 }
