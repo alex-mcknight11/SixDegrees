@@ -375,4 +375,8 @@ export default [
 	80579, // Robert Zdar
 	44728, // Cameron Mitchell
   51576, // Chuck Norris
+  77301, // Jiang Wen
+  22383, // Franco Nero
+  1620, // Michelle Yeoh
+  20904, // James Hong
 ];
