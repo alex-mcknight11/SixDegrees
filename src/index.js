@@ -7,10 +7,7 @@ function getRandomInt(max) {
 function getTwoRandomActorIds() {
   const i = getRandomInt(actors.length);
   const j = getRandomInt(actors.length);
+    while (i == j){
+    j = getRandomInt(actors.length);}
     return [actors[i], actors[j]];
 }
-
-function fixActorDupes() {
-    while (actors[i] == actors[j])
-      actors[i] = getRandomInt();
-    }
