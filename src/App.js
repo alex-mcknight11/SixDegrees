@@ -7,6 +7,7 @@ function App() {
   return (
     <React.Fragment>
       <Header />
+      <Movie-Dropdown />
     </React.Fragment>
   );
 }

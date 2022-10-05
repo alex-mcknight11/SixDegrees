@@ -1,5 +1,4 @@
 import axios from 'axios';
-import actors from './actor-array';
 
 export default class TMDBService {
   static async getMoviesForActor(actorID) {
