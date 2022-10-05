@@ -1,10 +1,12 @@
 import React from 'react';
-import Actors from '../index';
+import Header from "./components/header";
+import actors from './components/actor-array';
 
 function App() {
   return (
     <React.Fragment>
-      <Actors />
+      <Header />
+      <actors />
     </React.Fragment>
   );
 }
