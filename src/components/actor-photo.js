@@ -1,13 +1,10 @@
-import React from 'react';
+import axios from 'axios';
 
-class ActorPhoto {
-  constructor(center, filterText) {
-    this.filterText = filterText
-
-    this.center = Object.assign({}, center, {
-      text: center.name,
-      frameId: `c${center.id}`,
-      imgLink: center.profile_path ? `https://image.tmdb.org/t/p/w185${center.profile_path}`
-    });
+export default class ActorPhoto {
+  static async GetActorPhoto(actorID) {
+    try {
+      const response = await axios.get(`https://api.themoviedb.org/3/person/${actorID}/images?api_key=${process.env.REACT_APP_API_KEY}`)
+      return (response.data.cast.map(credit => ({id:credit.id, title:credit.title}) ))
+    }catch(e){}
+    }
   }
-}

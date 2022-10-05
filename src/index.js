@@ -29,4 +29,4 @@ function getTwoRandomActorIds() {
 
 
 TMDBService.getMoviesForActor(getTwoRandomActorIds()[0])
-TMDBService.getActorsForMovie(21990).then(console.log)
+TMDBService.getActorsForMovie(100).then(console.log)
