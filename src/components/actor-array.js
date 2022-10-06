@@ -381,4 +381,10 @@ export default [
   20904, // James Hong
 	66717, // Anthony Wong
 	1619, // Chow Yun Fat
+	74375, // Cynthia Rothrock
+	240171, // Gordon Liu
+	2537, // Sonny Chiba
+	7453, // Takashi Shimura
+	1338, // Maggie Cheung
+	25246, // Andy Lau
 ];

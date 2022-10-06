@@ -380,5 +380,11 @@ export default {
   "Michelle Yeoh": 1620,
   "James Hong": 20904,
   "Anthony Wong": 66717,
-  "Chow Yun Fat": 1619
+  "Chow Yun Fat": 1619,
+  "Cynthia Rothrock": 74375,
+  "Gordon Liu": 240171,
+  "Sonny Chiba": 2537,
+  "Takashi Shimura": 7453,
+  "Maggie Cheung": 1338,
+  "Andy Lau": 25246,
 }
