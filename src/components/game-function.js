@@ -1,6 +1,7 @@
 // import ReactDOM from 'react-dom/client';
 // import reportWebVitals from '../reportWebVitals';
 import actorList from './actor-list';
+import actorArray from './actor-array';
 import TMDBService from './get-movie';
 
 
@@ -17,9 +18,10 @@ export default function getTwoRandomActorIds() {
   let j = getRandomInt(actors.length);
     while (i === j){
     j = getRandomInt(actors.length);}
-    return [actors[i], actors[j]];
+  console.log(actors[i], actors[j])
+  return [actors[i], actors[j]];
 }
 
 
 TMDBService.getMoviesForActor(getTwoRandomActorIds()[0])
-TMDBService.getActorsForMovie(getTwoRandomActorIds()[0])
+TMDBService.getActorsForMovie([0])
