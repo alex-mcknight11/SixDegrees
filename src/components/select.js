@@ -13,4 +13,4 @@ export default function Select() {
   return <select> {movies.map(movie => <option>{movie.title}</option>)} </select>
 }
 
-<SelectSearch useState={useState} value="sv" name="movie" placeholder="Pick a Movie" />
+{/* <SelectSearch useState={useState} value="sv" name="movie" placeholder="Pick a Movie" /> */}
