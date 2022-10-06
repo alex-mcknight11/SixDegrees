@@ -4,14 +4,17 @@ html {
   margin: auto;
   line-height: 1.75;
   font-size: 1.25em;
+  background-color: #09BC8A;
 }
 
 h1,h2,h3,h4,h5,h6 {
   margin: 3em 0 1em;
+  color: #172A3A;
+
 }
 
 p,ul,ol {
   margin-bottom: 2em;
-  color: #1d1d1d;
+  color: #172A3A;
   font-family: sans-serif;
 }
