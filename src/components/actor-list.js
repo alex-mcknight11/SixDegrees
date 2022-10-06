@@ -1,4 +1,4 @@
-{
+export default {
 	"Salma Hayek": 3136,
 	"Bruce Willis": 62,
 	"Mark Hamill": 2,
