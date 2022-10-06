@@ -10,7 +10,6 @@ function App() {
     <React.Fragment>
       <Header />
       <Select />
-      <ActorPhoto />
     </React.Fragment>
   );
 }

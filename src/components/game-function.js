@@ -1,9 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import reportWebVitals from '../reportWebVitals';
+// import ReactDOM from 'react-dom/client';
+// import reportWebVitals from '../reportWebVitals';
 import actorList from './actor-list';
 import TMDBService from './get-movie';
-import axios from 'axios';
 
 
 function getRandomInt(max) {
@@ -23,5 +21,5 @@ export default function getTwoRandomActorIds() {
 }
 
 
-TMDBService.getMoviesForActor(getTwoRandomActorIds(console.log)[0])
-TMDBService.getActorsForMovie([]).then(console.log)
+TMDBService.getMoviesForActor(getTwoRandomActorIds()[0])
+TMDBService.getActorsForMovie(getTwoRandomActorIds()[0])
