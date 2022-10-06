@@ -22,6 +22,5 @@ export default function getTwoRandomActorIds() {
   return [actors[i], actors[j]];
 }
 
-
-TMDBService.getMoviesForActor(getTwoRandomActorIds()[0])
+TMDBService.getMoviesForActor([0])
 TMDBService.getActorsForMovie([0])

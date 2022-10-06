@@ -379,4 +379,6 @@ export default {
   "Franco Nero": 22383,
   "Michelle Yeoh": 1620,
   "James Hong": 20904,
+  "Anthony Wong": 66717,
+  "Chow Yun Fat": 1619
 }

@@ -379,4 +379,6 @@ export default [
   22383, // Franco Nero
   1620, // Michelle Yeoh
   20904, // James Hong
+	66717, // Anthony Wong
+	1619, // Chow Yun Fat
 ];
