@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import'./index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import actors from './components/actor-array';
-import TMDBService from './components/get-movie';
+import reportWebVitals from '../reportWebVitals';
+import actors from './actor-array';
+import TMDBService from './get-movie';
 import axios from 'axios';
 
 
@@ -12,7 +10,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-function getTwoRandomActorIds() {
+export default function getTwoRandomActorIds() {
   const i = getRandomInt(actors.length);
   let j = getRandomInt(actors.length);
     while (i === j){
