@@ -1,7 +1,7 @@
 // import ReactDOM from 'react-dom/client';
 // import reportWebVitals from '../reportWebVitals';
 import actorList from './actor-list';
-import actorArray from './actor-array';
+// import actorArray from './actor-array';
 import TMDBService from './get-movie';
 
 

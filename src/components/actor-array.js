@@ -366,7 +366,6 @@ export default [
 	62410, // Sammo Hung
 	64439, // Fan Bingbing
 	62414, // Yuen Biao
-	1336, // Jet Li
 	1341, // Donnie Yen
 	7450, // Toshiro Mifune
 	11357, // Bruce Campbell

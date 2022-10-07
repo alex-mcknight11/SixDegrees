@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import getTwoRandomActorIds from './game-function';
 import TMDBService from './get-movie';
-import SelectSearch from 'react-select-search';
+// import SelectSearch from 'react-select-search';
 
 export default function Select() {
   const [movies, setMovies] = useState([])
@@ -13,4 +13,4 @@ export default function Select() {
   return <select> {movies.map(movie => <option>{movie.title}</option>)} </select>
 }
 
-{/* <SelectSearch useState={useState} value="sv" name="movie" placeholder="Pick a Movie" /> */}
+//{/* <SelectSearch useState={useState} value="sv" name="movie" placeholder="Pick a Movie" /> */}

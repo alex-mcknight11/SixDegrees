@@ -366,7 +366,6 @@ export default {
 	"Sammo Hung": 62410,
 	"Fan Bingbing": 64439,
   "Yuen Biao": 62414,
-  "Jet Li": 1336,
 	"Donnie Yen": 1341,
 	"Toshiro Mifune": 7450,
 	"Bruce Campbell": 11357,

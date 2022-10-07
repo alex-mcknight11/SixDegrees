@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import'./index.css';
 import './components/game-function';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import actors from './components/actor-array';
-import TMDBService from './components/get-movie';
+// import reportWebVitals from './reportWebVitals';
+// import actors from './components/actor-array';
+// import TMDBService from './components/get-movie';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
